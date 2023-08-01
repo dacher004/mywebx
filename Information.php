@@ -2,10 +2,10 @@
 
 	class Customers
 	{
-		private $servername = "localhost";
+		private $servername = "ec2-user";
 		private $username   = "root";
 		private $password   = "";
-		private $database   = "newdatabase";
+		private $database   = "mywebdatabase";
 		public  $con;
 		// Database Connection 
 		public function __construct()

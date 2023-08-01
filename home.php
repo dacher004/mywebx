@@ -65,10 +65,10 @@ label{
 		<div class="content">
 			<h2>Information Database</h2>
 <?php
-$servername = "localhost";
+$servername = "ec2-user";
 $username = "root";
 $password = "";
-$dbname = "newdatabase";
+$dbname = "mywebdatabase";
 
 
 // Create connection
@@ -262,10 +262,10 @@ if (isset($_POST['delete'])) {
   //  $genderdel = $_POST['gender'];
 
 // Create a connection with PDO instance
-$servername = "localhost";
+$servername = "ec2-user";
 $username = "root";
 $password = "";
-$dbname = "newdatabase";
+$dbname = "mywebdatabase";
 
 $pdo = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

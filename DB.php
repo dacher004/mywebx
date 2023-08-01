@@ -1,9 +1,9 @@
 <?php
 session_start();
-$servername = "localhost";
+$servername = "ec2-user";
 $username = "root";
 $password = "";
-$datababase_name = 'newdatabase';
+$datababase_name = 'mywebdatabase';
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $datababase_name);
