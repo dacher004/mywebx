@@ -7,9 +7,9 @@
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.0.28
 
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-START TRANSACTION;
-SET time_zone = "+00:00";
+--SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+--START TRANSACTION;
+--SET time_zone = "+00:00";
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 -- Table structure for table `admin`
 --
 
-DROP TABLE IF EXISTS `admin`;
+--DROP TABLE IF EXISTS `admin`;
 CREATE TABLE `admin` (
   `ID` int(200) NOT NULL,
   `username` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
