@@ -5,7 +5,7 @@
 		private $servername = "ec2-user";
 		private $username   = "root";
 		private $password   = "";
-		private $database   = "mywebdatabase";
+		private $database   = "mywebserver";
 		public  $con;
 		// Database Connection 
 		public function __construct()
