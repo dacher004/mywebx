@@ -12,7 +12,7 @@ if (!isset($_SESSION['loggedin'])) {
 <?php
   
   // Include database file
-  include 'information.php';
+  include 'Information.php';
   $customerObj = new Customers();
   // Delete record from table
   if(isset($_GET['deleteId']) && !empty($_GET['deleteId'])) {

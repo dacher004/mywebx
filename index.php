@@ -2,7 +2,7 @@
 if (session_status() !== PHP_SESSION_ACTIVE) {
     session_start();
 }
-include 'information.php';
+include 'Information.php';
 $customerObj = new Customers();
   // Insert Record in customer table
   if(isset($_POST['login'])) {
