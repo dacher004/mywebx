@@ -6,7 +6,7 @@
     
   }
   // Include database file
-  include 'information.php';
+  include 'Information.php';
   $customerObj = new Customers();
 
 

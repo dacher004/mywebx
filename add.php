@@ -6,7 +6,7 @@ if (!isset($_SESSION['loggedin'])) {
 	
 }
   // Include database file
-  include 'information.php';
+  include 'Information.php';
   $customerObj = new Customers();
   // Insert Record in customer table
   if(isset($_POST['submit'])) {
